@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+    <title>Add & View Student with Ajax</title>
+</head>
+
+<body>
+<div class="container">
+    <!--                     EDIT MODAL-->
+    <div class="modal fade" id="editModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-center" id="exampleModalLongTitle">Edit Student Info</h3>
+                </div>
+
+                <div class="modal-body">
+                    <form class="form1">
+                        <input type="hidden" id="stuId" name="stuId"/>
+                        Name: <input type="text" id="studentName1" name="studentName"/><br><br>
+
+                        Department: <select id="depId1" name="depId">
+                        <option th:each="dep : ${departmentList}"
+                                th:value="${dep.depId}"
+                                th:text="${dep.departmentName}"></option>
+                    </select><br><br>
+
+                        Batch: <select name="batchId" id="batchId1">
+                        <option th:each="batch : ${batchList}"
+                                th:value="${batch.batchId}"
+                                th:text="${batch.batchName}"></option>
+                    </select>
+                        <br><br>
+                        <button type="button" class="btn btn-secondary" style="justify-items: right"
+                                data-dismiss="modal">Cancel
+                        </button>
+                        <button class="btn btn-primary">Update</button>
+                    </form>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--          START DELETE MODAL-->
+    <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body text-center">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" id="deleteOne1" class="btn btn-danger">Confirm Delete</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--          ADD New Student-->
+    <div class="row">
+        <div class="col-md-4">
+            <br><br>
+        </div>
+        <div class="col-md-8">
+            <br>
+        </div>
+    </div>
+
+    <div class="row" style="background-color: lightblue">
+        <br>
+        <div class="col-md-4"><br></div>
+        <div class="col-md-5" style="border-style: solid">
+            <h1 class="text-center"><u> Add a New Student </u></h1><br>
+            <form class="form">
+                <input type="hidden" name="stuId"/>
+                Name: <input type="text" name="studentName"/><br><br>
+
+                Batch: <select name="batchId" class="all-batch">
+                <option th:each="batch : ${batchList}"
+                        th:value="${batch.batchId}"
+                        th:text="${batch.batchName}"></option>
+            </select><br><br>
+
+                Department: <select id="depId" name="depId" class="all-dep">
+                <option value="">Select your Deparment</option>
+                <option th:each="dep : ${departmentList}"
+                        th:value="${dep.depId}"
+                        th:text="${dep.departmentName}"></option>
+            </select><br><br>
+
+                Semester : <select id="semesterId" name="semesterId" class="all-semester">
+
+            </select>
+                <br><br>
+                Course : <select id="courseId" name="courseId" class="all-course">
+            </select>
+                <br><br>
+
+                <button class="btn btn-primary">Save</button>
+            </form>
+            <br>
+        </div>
+    </div>
+    <!-- View All Student -->
+    <div class="row" style="background-color: lightcyan">
+        <div class="col-12 text-center">
+            <h1 class="text-center"><u>All Student List</u></h1>
+            <table class="table table-hover">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Batch</th>
+                    <th>Semester</th>
+                    <th>Courses</th>
+                    <th th:colspan="2">Action</th>
+                </tr>
+                </thead>
+                <tbody class="table-body"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/js/jquery-3.1.1.min.js}"></script>
+<script th:src="@{/js/jquery-ui.min.js}"></script>
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/manage-student.js}"></script>
+
+</body>
+</html>

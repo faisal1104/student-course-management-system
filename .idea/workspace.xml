@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b3e5899-6b94-40bd-a360-317c55244556" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/controller/AjaxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/controller/StudentRestConroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/controller/StudentRestConroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/converter/batchConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/converter/BatchConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/converter/depConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/converter/DepConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/dto/DepartmentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/dto/DepartmentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/dto/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/dto/StudentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Batch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Batch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Enrollment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Semester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Semester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/initial/InitialData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/initial/InitialData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/database_design/repository/EnrollmentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/database_design/repository/EnrollmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-faisal.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-faisal.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/manage-student.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/manage-student.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/course/manage-course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/course/manage-course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/errors/error404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/errors/error404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/manage-student-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/manage-student.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/student/manage-student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/view.html" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mn7gnPAK5pacFuTHAMsF6dNQOh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Computer hut\IdeaProjects\Student Management System\src\main\resources\templates\semester" />
+      <recent name="C:\Users\Computer hut\IdeaProjects\database_design\src\main\resources\static\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Computer hut\IdeaProjects\Student Management System with RestAPI\src\main\java\com\example\database_design" />
+      <recent name="C:\Users\Computer hut\IdeaProjects\Student Management System with RestAPI\src\main\resources\templates" />
+      <recent name="C:\Users\Computer hut\IdeaProjects\Student Management System with RestAPI\src\main\resources" />
+      <recent name="C:\Users\Computer hut\IdeaProjects\Student Management System with RestAPI\src\main\resources\static\css" />
+      <recent name="C:\Users\Computer hut\IdeaProjects\Student Management System with RestAPI\src\main\resources\templates\student" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DatabaseDesignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Student Management System" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.database_design.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b3e5899-6b94-40bd-a360-317c55244556" name="Default Changelist" comment="" />
+      <created>1610117615874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610117615874</updated>
+      <workItem from="1610117621925" duration="8291000" />
+      <workItem from="1610200441312" duration="146000" />
+      <workItem from="1610200623386" duration="248000" />
+      <workItem from="1610200917066" duration="392000" />
+      <workItem from="1610201345534" duration="9685000" />
+      <workItem from="1610384781068" duration="1508000" />
+      <workItem from="1610531665208" duration="20297000" />
+      <workItem from="1610805869442" duration="9799000" />
+      <workItem from="1610876890185" duration="19683000" />
+      <workItem from="1610907935408" duration="1112000" />
+      <workItem from="1610951604234" duration="546000" />
+      <workItem from="1610971559581" duration="3124000" />
+      <workItem from="1610978922792" duration="7651000" />
+      <workItem from="1611053659719" duration="1193000" />
+      <workItem from="1611055734457" duration="621000" />
+      <workItem from="1611137573030" duration="3170000" />
+      <workItem from="1611152627277" duration="145000" />
+      <workItem from="1611153157558" duration="7000" />
+      <workItem from="1611153371803" duration="8334000" />
+      <workItem from="1611207527554" duration="1049000" />
+      <workItem from="1611386791322" duration="10623000" />
+      <workItem from="1611417109341" duration="4311000" />
+      <workItem from="1611587298625" duration="3458000" />
+      <workItem from="1611590771026" duration="303000" />
+      <workItem from="1611591081844" duration="2452000" />
+      <workItem from="1611814299302" duration="3333000" />
+      <workItem from="1611822003350" duration="2134000" />
+      <workItem from="1612111815236" duration="149000" />
+      <workItem from="1613655942209" duration="1135000" />
+      <workItem from="1613666053585" duration="5927000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
